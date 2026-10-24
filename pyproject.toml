@@ -1,0 +1,23 @@
+[project]
+name = "search-engine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "bachir", email = "222237332909@etu.univ-usto.dz" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.1.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "pystemmer>=3.1.0",
+    "pyyaml>=6.0.3",
+    "spacy>=3.8.16",
+    "tqdm>=4.70.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.10.4,<0.11.0"]
+build-backend = "uv_build"
